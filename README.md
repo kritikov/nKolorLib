@@ -32,25 +32,18 @@ const color = nKolorLib.getColor(0.5, 0.5, 0.5, 1);
 ```
 ---
 ## 🧰 Available Tools
-svPicker: Classic 2D saturation/value area with hue and alpha sliders.
+---
+# svPicker
 <img width="566" height="823" alt="image" src="https://github.com/user-attachments/assets/ce8e02ef-b76a-44b3-bddb-fb90078170be" />
 
-hvPicker: Classic 2D hue/value area with saturation and alpha sliders.
+---
+# hvPicker
 <img width="543" height="832" alt="image" src="https://github.com/user-attachments/assets/9aa9f9af-3284-40d6-8bb9-c01ad0d91f2c" />
 
-Color: A class based on HSV and alpha parameters.
+---
+# Color: A class based on HSV and alpha parameters.
 
-Provides:
-
-Easy conversion to HEX
-
-RGB output
-
-HSV output
-
-Alpha-aware formats
-
-Utility methods for color manipulation
+Provides: easy conversion to HEX, RGB output, HSV output, Alpha-aware formats, Utility methods for color manipulation
 
 ---
 
