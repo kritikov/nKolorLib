@@ -1,6 +1,6 @@
-import Style from './Style.js';
-import Color from './Color.js';
-import {SvPicker, HvPicker} from './Pickers.js';
+import Style from './Core/Style.js';
+import Color from './Core/Color.js';
+import {SvPicker, HvPicker} from './Core/Pickers.js';
 
 export default class nKolorLib{
 
