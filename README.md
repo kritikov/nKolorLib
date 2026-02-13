@@ -31,7 +31,7 @@ const hvPicker = nKolorLib.getHVPicker(
 
 const color = nKolorLib.getColor(0.5, 0.5, 0.5, 1);
 
-
+---
 
 ## 🧰 Available Tools
 svPicker
@@ -69,6 +69,8 @@ HSV output
 Alpha-aware formats
 
 Utility methods for color manipulation
+
+---
 
 ## 📄 License
 
