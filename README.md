@@ -15,7 +15,6 @@ A lightweight JavaScript library that provides two interactive HSV color pickers
 - 🧩 Fully embeddable in any UI
 
 ---
-
 ## 🚀 Usage (ES Module)
 
 ```javascript
@@ -30,33 +29,16 @@ const hvPicker = nKolorLib.getHVPicker(
 );
 
 const color = nKolorLib.getColor(0.5, 0.5, 0.5, 1);
-
+```
 ---
-
 ## 🧰 Available Tools
-svPicker
+svPicker: Classic 2D saturation/value area with hue and alpha sliders.
+<img width="566" height="823" alt="image" src="https://github.com/user-attachments/assets/ce8e02ef-b76a-44b3-bddb-fb90078170be" />
 
-Classic 2D saturation/value area with hue and alpha sliders.
+hvPicker: Classic 2D hue/value area with saturation and alpha sliders.
+<img width="543" height="832" alt="image" src="https://github.com/user-attachments/assets/9aa9f9af-3284-40d6-8bb9-c01ad0d91f2c" />
 
-Includes:
-
-Real-time updates
-
-Four automatically generated similar colors based on the selected color
-
-hvPicker
-
-Classic 2D hue/value area with saturation and alpha sliders.
-
-Includes:
-
-Real-time updates
-
-Four automatically generated similar colors based on the selected color
-
-Color
-
-A class based on HSV and alpha parameters.
+Color: A class based on HSV and alpha parameters.
 
 Provides:
 
