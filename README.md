@@ -34,11 +34,13 @@ const color = nKolorLib.getColor(0.5, 0.5, 0.5, 1);
 ## 🧰 Available Tools
 ---
 # svPicker
-<img width="566" height="823" alt="image" src="https://github.com/user-attachments/assets/ce8e02ef-b76a-44b3-bddb-fb90078170be" />
+<img width="512" height="827" alt="image" src="https://github.com/user-attachments/assets/87ae5ad9-718a-4765-9095-b74c462223d9" />
+
 
 ---
 # hvPicker
-<img width="543" height="832" alt="image" src="https://github.com/user-attachments/assets/9aa9f9af-3284-40d6-8bb9-c01ad0d91f2c" />
+<img width="518" height="825" alt="image" src="https://github.com/user-attachments/assets/4f07de19-8204-4e37-9d4e-3e08b9087c82" />
+
 
 ---
 # Color: A class based on HSV and alpha parameters.
