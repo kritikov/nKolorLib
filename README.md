@@ -31,10 +31,9 @@ const hvPicker = nKolorLib.getHVPicker(
 
 const color = nKolorLib.getColor(0.5, 0.5, 0.5, 1);
 
-
 ---
 
-## 🧰 Available Tools
+#🧰 Available Tools
 svPicker
 
 Classic 2D saturation/value area with hue and alpha sliders.
