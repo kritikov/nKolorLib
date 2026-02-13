@@ -21,11 +21,13 @@ A lightweight JavaScript library that provides two interactive HSV color pickers
 import nKolorLib from '../nKolorLib.js';
 
 const svPicker = nKolorLib.getSVPicker(
-  document.getElementById("svPicker")
+  document.getElementById("svPicker"), 
+  {width: 400, height: 400} 
 );
 
 const hvPicker = nKolorLib.getHVPicker(
-  document.getElementById("hvPicker")
+  document.getElementById("hvPicker"), 
+  {width: 400, height: 400} 
 );
 
 const color = nKolorLib.getColor(0.5, 0.5, 0.5, 1);
