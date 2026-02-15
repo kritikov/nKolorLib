@@ -55,4 +55,5 @@ Provides: easy conversion to HEX, RGB output, HSV output, Alpha-aware formats, U
 
 nKolorLib is free software licensed under the GNU GPL v3.0 or later.
 
+---
 You can view an online implementation at https://nkode.gr/EN/nKolorPicker
