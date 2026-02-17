@@ -29,15 +29,18 @@ const hvPicker = nKolorLib.getHVPicker(
 );
 
 const color = nKolorLib.getColor(0.5, 0.5, 0.5, 1);
+```
 
 The picker has a default width of 350px. The height is adjusted automatically. To change the width, add the following to your CSS file:
 
+```javascript
 .nKolorLib-picker{
     width: 450px !important;
 }
+```
 
 You can also use this rule for smaller screen sizes to make the picker responsive.
-```
+
 ---
 ## 🧰 Available Tools
 ---
