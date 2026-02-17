@@ -1,11 +1,7 @@
 const NKOLOR_CSS = `
-    .nKolorLib-canvasEditor {
-        margin: 12px 0;
-        user-select: none;
-    }
 
-    .nKolorLib-canvasEditor canvas {
-
+    .nKolorLib-picker{
+        width: 350px;
     }
 
     .nKolorLib-colorPreview{
@@ -13,18 +9,41 @@ const NKOLOR_CSS = `
         justify-content: center;
         align-items: flex-end;
         gap: 4px;
+        width: 100%;
+        height: 50px;
     }
-
-    .nKolorLib-colorDisplay {
+    .nKolorLib-colorPreview .nKolorLib-colorDisplay {
         position: relative; 
+        height: 100%;
+    }
+    .nKolorLib-colorPreview .nKolorLib-variant {
+        flex: 1;
+        cursor: pointer;
+        height: 70%;
+    }
+    .nKolorLib-colorPreview .nKolorLib-mainVariant {
+        flex: 4;
     }
 
-    .nKolorLib-variant{
-        cursor: pointer;
+    .nKolorLib-canvasEditor {
+        margin: 12px 0;
+        user-select: none;
+        width: 100%;
+        height: 100%;
+    }
+    .nKolorLib-canvasEditor canvas{
+        width: 100%;
+        height: 100%;
     }
 
     .nKolorLib-slider{
         margin: 12px 0;
+        width: 100%;
+        height: 20px;
+    }
+    .nKolorLib-slider canvas{
+        width: 100%;
+        height: 100%;
     }
 
     .nKolorLib-colorValues {
@@ -32,6 +51,7 @@ const NKOLOR_CSS = `
         grid-template-columns: auto auto;
         gap: 0px 0px;
         align-items: center;
+        width: 100%;
     }
 
     .nKolorLib-colorValues span {
@@ -43,6 +63,7 @@ const NKOLOR_CSS = `
         padding: 0;
         line-height: 2em;
         position: relative;
+        width: 50%;
     }
 
     .nKolorLib-colorValues span.copied {
@@ -73,6 +94,7 @@ const NKOLOR_CSS = `
     .nKolorLib-colorDisplay:hover::after,
     .nKolorLib-colorValues span:hover::after {
         opacity: 1;
+        z-index: 10;
     }
 
 `;

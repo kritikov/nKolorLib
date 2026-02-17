@@ -3,18 +3,12 @@ import Color from './Color.js';
 export default class ColorDisplay {
     #color = new Color();
     #container = null;
-    #width = 50;
-    #height = 50;
 
-    constructor(width = 50, height = 50, cssClass="") {
-        this.#width = width;
-        this.#height = height;
+    constructor(cssClass="") {
         this.#container = document.createElement('div');
         this.#container.classList.add('nKolorLib-colorDisplay');
         if (cssClass)
             this.#container.classList.add(cssClass);
-        this.#container.style.width = `${this.#width}px`;
-        this.#container.style.height = `${this.#height}px`;
 
         this.#update();
     }
