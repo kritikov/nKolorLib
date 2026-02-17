@@ -11,13 +11,10 @@ export default class ColorValues{
     #hslaText = null;    
     #hsvText = null;
     #hsvaText = null;
-    #width = 50;
 
-    constructor(width = 50) {
-        this.#width = width;
+    constructor() {
         this.#container = document.createElement('div');
         this.#container.classList.add('nKolorLib-colorValues');
-        this.#container.style.width = `${this.#width}px`;
 
         this.#hexText = document.createElement('span');
         this.#hexText.dataset.tooltip = "Click to copy";

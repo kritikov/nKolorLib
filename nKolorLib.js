@@ -4,16 +4,16 @@ import {SvPicker, HvPicker} from './Core/Pickers.js';
 
 export default class nKolorLib{
 
-    static getSVPicker(element, options = {width: 400, height: 400}){
+    static getSVPicker(element){
         Style.inject();
 
-		return new SvPicker(element, options);
+		return new SvPicker(element);
 	}
 
-     static getHVPicker(element, options = {width: 400, height: 400}){
+     static getHVPicker(element){
         Style.inject();
 
-		return new HvPicker(element, options);
+		return new HvPicker(element);
 	}
 
     static getColor(hue=0.5, saturation=0.5, value=0.5, alpha=1.0){
